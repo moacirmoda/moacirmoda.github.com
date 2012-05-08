@@ -52,8 +52,8 @@ h1, h2, h3, h4 { font-weight: inherit; letter-spacing: 1px; }
 h1 { font-size: 48px; letter-spacing: 3px; text-transform: uppercase; }
 h2 { text-transform: uppercase; }
 
-a, a:link, a:visited { color: #990003; }
-a:hover { text-decoration: none; }
+a, a:link, a:visited { color: #990003; text-decoration: none;}
+a:hover { text-decoration: underline; }
 
 .container {
     width: 960px;
