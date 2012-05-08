@@ -1,0 +1,74 @@
+html, body, div, span, applet, object, iframe, table, caption,
+tbody, tfoot, thead, tr, th, td, del, dfn, em, font, img, ins,
+kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, p, blockquote, pre, a, abbr,
+acronym, address, big, cite, code, dl, dt, dd, ol,
+fieldset, form, label, legend {
+    vertical-align: baseline;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+:focus {
+    outline: 0;
+}
+body {
+    background: white;
+    line-height: 1;
+    color: black;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+
+/* ======= Currículo - Moacir ======= */
+html, body { height: 100%; }
+
+body {
+    color: #363636;
+    background-color:#efefef;
+    font-family: Georgia, arial, sans-serif, serif;    
+    color: #444;
+    line-height: 150%;
+} 
+
+h1, h2, h3, h4 { font-weight: inherit; letter-spacing: 1px; }
+
+h1 { font-size: 48px; letter-spacing: 3px; text-transform: uppercase; }
+h2 { text-transform: uppercase; }
+
+a, a:link, a:visited { color: #990003; }
+a:hover { text-decoration: none; }
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    padding: 30px;
+}
+
+.section {
+    border-top: 1px solid #999;
+    padding-bottom: 15px;
+}
+
+/*.header { display: table; }*/
+.header h1 { border-bottom: 3px solid #363636; padding-bottom: 25px; width: 100%; }
+.header h2 { margin-top: -20px; letter-spacing: 0; text-transform: lowercase; font-weight: inherit; }
+.header .contact { }
+.header .contact ul { list-style: none; }
