@@ -36,6 +36,8 @@ blockquote, q {
     quotes: "" "";
 }
 
+.clear { clear:both;}
+
 /* ======= Currículo - Moacir ======= */
 html, body { height: 100%; }
 
@@ -62,13 +64,12 @@ a:hover { text-decoration: underline; }
     padding: 30px;
 }
 
-section {
-    border-top: 1px solid #999;
-    padding-bottom: 15px;
-}
+section { border-top: 1px solid #999; padding-bottom: 15px; }
 
-/*.header { display: table; }*/
 header h1 { border-bottom: 3px solid #363636; padding-bottom: 25px; width: 100%; }
 header h2 { margin-top: -20px; letter-spacing: 0; text-transform: lowercase; font-weight: inherit; }
-header .contact { }
-header .contact ul { list-style: none; }
+
+header .contact ul { list-style: none; padding: 0; }
+header .contact li { display: inline; list-style-type: none; padding: 1px 10px; border-right: 1px solid #999; }
+header .contact li:first-child { padding-left: 0; }
+header .contact li:last-child { border-right: none; }
